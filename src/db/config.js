@@ -18,7 +18,7 @@ let db; // establece una variable vacia para la base de datos
 export async function connect() {
     try {
         await client.connect();
-        log("succesful conection")
+        //log("succesful conection")
         db = client.db(DB_NAME)
         
     } catch (error) {
