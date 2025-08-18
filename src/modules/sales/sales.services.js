@@ -10,11 +10,6 @@ export async function findAllSalesServices() {
     return products
 }
 
-export async function postOneSaleServices() {
-    
-}
-
-
 export async function createSaleServices({ customerId, paymentMethod, items }) {
   if (!customerId) throw new Error("CUSTOMER_ID_REQUIRED");
   if (!paymentMethod) throw new Error("PAYMENT_METHOD_REQUIRED");
@@ -22,7 +17,6 @@ export async function createSaleServices({ customerId, paymentMethod, items }) {
     throw new Error("ITEMS_REQUIRED");
   }
 
-  const db = getDB();
   const productsCol = db.collection("products");
   const salesCol = db.collection("sales");
 
@@ -43,7 +37,7 @@ export async function createSaleServices({ customerId, paymentMethod, items }) {
     if (p.quantity < it.quantity) throw new Error("STOCK_INSUFFICIENT");
   }
 
-  // 3) Calcular totales
+  //Calculate sale
   const saleItems = [];
   let total = 0;
 
