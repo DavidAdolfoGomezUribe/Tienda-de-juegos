@@ -4,6 +4,8 @@ Este es el **backend** para la aplicación web de **Tienda de Videojuegos**, des
 Se encarga de gestionar productos (juegos y consolas) y las ventas de los mismos, proporcionando una API REST que consume el frontend hecho en **Next.js + React + Tailwind**.
 
 ---
+## Front-end
+[Front web page repository](https://github.com/DavidAdolfoGomezUribe/videogame-store-frontend)
 
 ## 🚀 Características principales
 
