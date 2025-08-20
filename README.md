@@ -7,6 +7,13 @@ Se encarga de gestionar productos (juegos y consolas) y las ventas de los mismos
 ## Front-end
 [Front web page repository](https://github.com/DavidAdolfoGomezUribe/videogame-store-frontend)
 
+
+
+## Video
+[Video explicativo del proyecto](https://www.tiktok.com/@davidgomez071/video/7540462063580122374)
+
+
+
 ## 🚀 Características principales
 
 - Gestión de **productos** (juegos y consolas):
